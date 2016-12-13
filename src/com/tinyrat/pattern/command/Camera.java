@@ -16,10 +16,10 @@ public class Camera extends JPanel {
     }
 
     public void on() {
-        label.setIcon(new ImageIcon("cameraOpen.jpg"));
+        label.setIcon(new ImageIcon("./file/command/cameraOpen.jpg"));
     }
 
     public void off() {
-        label.setIcon(new ImageIcon("cameraClosed.jpg"));
+        label.setIcon(new ImageIcon("./file/command/cameraClosed.jpg"));
     }
 }

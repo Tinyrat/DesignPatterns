@@ -16,10 +16,10 @@ public class Light extends JPanel {
     }
 
     public void on() {
-        label.setIcon(new ImageIcon("lightOpen.jpg"));
+        label.setIcon(new ImageIcon("./file/command/lightOpen.jpg"));
     }
 
     public void off() {
-        label.setIcon(new ImageIcon("lightClose.jpg"));
+        label.setIcon(new ImageIcon("./file/command/lightClose.jpg"));
     }
 }
